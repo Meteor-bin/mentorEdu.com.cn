@@ -1,0 +1,26 @@
+.sider {
+    position: fixed;
+    right: 50px;
+    top: 40%;
+    z-index: 90;
+    span.cur {
+	    width: 8px;
+	    height: 8px;
+	    border: 1px solid #777;
+	    background: rgba(0, 0, 0, 0);
+	}
+	span {
+	    display: block;
+	    background: #777;
+	    width: 4px;
+	    height: 4px;
+	    border-radius: 20px;
+	    margin: 0 auto;
+	}
+	li {
+	    width: 16px;
+	    height: 16px;
+	    padding-top: 10px;
+	    cursor: pointer;
+	}
+}
